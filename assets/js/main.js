@@ -2,7 +2,7 @@ window.addEventListener("load", () => {
   const _options = {
     root: null,
     rootMargin: "0px",
-    threshold: 0.8,
+    threshold: 0.85,
   };
 
   const $sections = document.querySelectorAll(".section");
@@ -38,7 +38,6 @@ window.addEventListener("load", () => {
 
   $cardOverlay.forEach((overlay) => {
     overlay.addEventListener("mouseover", (event) => {
-      console.log("mouseover: ", event.target);
       $cardOverlay.forEach((element) => {
         element.parentNode.classList.add("disabled");
       });
@@ -46,7 +45,6 @@ window.addEventListener("load", () => {
     });
 
     overlay.addEventListener("mouseleave", (event) => {
-      console.log("mouseleave: ", event.target);
       $cardOverlay.forEach((element) => {
         element.parentNode.classList.remove("disabled");
       });
