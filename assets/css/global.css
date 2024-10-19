@@ -18,7 +18,8 @@
   --black: #111111;
   --background: #0b192c;
   --text-color: #94a3b8;
-  --resume-header-color: #024CAA;
+  --resume-header-color: #024caa;
+  --transparent: transparent;
 }
 
 * {
@@ -50,4 +51,23 @@ body {
 
 a {
   text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--transparent);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--black);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--black);
 }

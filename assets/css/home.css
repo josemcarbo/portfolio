@@ -1,13 +1,13 @@
 .container {
-  max-width: 1400px;
+  width: 100%;
   max-height: 100vh;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 6rem;
-  padding-right: 6rem;
+  padding-left: 12rem;
+  padding-right: 12rem;
   display: flex;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 3rem;
   overflow-x: auto;
 
   header {
@@ -36,16 +36,17 @@
 
     a {
       svg {
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 20px;
+        height: 20px;
         fill: var(--white);
-        opacity: .7;
+        opacity: 0.5;
         transition: all 0.5s ease;
       }
 
       &:hover {
         svg {
           opacity: 1;
+          transform: scale(1.1);
         }
       }
     }
@@ -81,7 +82,7 @@
           &:before {
             content: "";
             display: inline-block;
-            width: 20px;
+            width: 30px;
             height: 1px;
             background-color: var(--text-color);
             margin-right: 10px;
@@ -90,10 +91,10 @@
 
           &.active,
           &:hover {
-            color: var(--white);
+            color: var(--active);
             &:before {
-              width: 40px;
-              background-color: var(--white);
+              width: 60px;
+              background-color: var(--active);
             }
           }
         }
@@ -106,7 +107,7 @@
     flex-direction: column;
     height: 100%;
     width: 50%;
-    gap: 3rem;
+    gap: 4rem;
     padding: 6rem 0 15rem;
 
     section#about {
@@ -121,7 +122,7 @@
         list-style: none;
         display: flex;
         flex-direction: column;
-        gap: 1rem;
+        gap: 2rem;
 
         li {
           position: relative;
@@ -293,6 +294,20 @@
       animation-timeline: view();
       animation-range: 5vh 50vh;
     }
+  }
+}
+
+@media (max-width: 1366px) {
+  .container {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+}
+
+@media (max-width: 1280) {
+  .container {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 }
 
