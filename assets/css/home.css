@@ -18,12 +18,32 @@
     padding-bottom: 6rem;
     height: 100vh;
 
-    h1 {
-      font-family: "Fira Code", Courier, monospace;
-      font-size: 3rem;
-      line-height: 1;
-      font-weight: 700;
-      color: var(--white);
+    .subheader {
+      display: flex;
+      justify-content: flex-start;
+      gap: 1rem;
+      align-items: center;
+
+      img {
+        border-radius: 50%;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        object-fit: cover;
+        transition: transform 0.3s ease, filter 0.3s ease;
+
+        &:hover {
+          transform: scale(1.05);
+          transform: scale(1.05);
+          filter: brightness(1.1) saturate(1.2);
+        }
+      }
+
+      h1 {
+        font-family: "Fira Code", Courier, monospace;
+        font-size: 3rem;
+        line-height: 1;
+        font-weight: 700;
+        color: var(--white);
+      }
     }
 
     h2 {
@@ -34,19 +54,26 @@
       color: var(--text-color);
     }
 
-    a {
-      svg {
-        width: 20px;
-        height: 20px;
-        fill: var(--white);
-        opacity: 0.5;
-        transition: all 0.5s ease;
-      }
+    .access {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      gap: 1rem;
 
-      &:hover {
+      a {
         svg {
-          opacity: 1;
-          transform: scale(1.1);
+          width: 20px;
+          height: 20px;
+          fill: var(--white);
+          opacity: 0.5;
+          transition: all 0.5s ease;
+        }
+
+        &:hover {
+          svg {
+            opacity: 1;
+            transform: scale(1.1);
+          }
         }
       }
     }
