@@ -3,10 +3,11 @@ body {
 }
 
 .container {
-  background-color: var(--white);
+  position: relative;
+  background-color: var(--real-white);
+  max-width: 612px;
   width: 100%;
-  max-width: 1280px;
-  height: 100vh;
+  height: auto;
   display: flex;
   padding: 3rem 2rem;
 
@@ -109,6 +110,31 @@ body {
         }
       }
     }
+
+    .sticky {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      position: fixed;
+      padding-left: 5px;
+      bottom: 2rem;
+      right: 2rem;
+      background: var(--real-white);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+      transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+      animation: pulse 2s infinite;
+      z-index: 2;
+
+      svg {
+        width: 24px;
+        height: 24px;
+        fill: var(--white);
+        transition: all 0.5s ease;
+      }
+    }
   }
 
   aside {
@@ -164,4 +190,10 @@ body {
       }
     }
   }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
 }
