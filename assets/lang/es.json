@@ -1,0 +1,73 @@
+{
+  "description": "Soy un desarrollador full-stack con experiencia en la creación de aplicaciones web utilizando tecnologías modernas.",
+  "resume": {
+    "action": "Resumen",
+    "description": "Ver currículum completo"
+  },
+  "about": {
+    "action": "Acerca de",
+    "description": "En 2019, decidí probar suerte en la creación de aplicaciones web y me sumergí en el mundo de la programación y el desarrollo web. Actualmente, he tenido el privilegio de desarrollar software para diferentes clientes. Mi principal objetivo es crear interfaces de usuario accesibles aprovechando al máximo las tecnologías modernas. Lo que más disfruto es crear software que se encuentra en la intersección del diseño y la ingeniería: cosas que se ven bien, pero que también están bien hechas. En mi tiempo libre, también me gusta explorar el mundo del servidor, combinando interfaces atractivas con las mejores prácticas en la gestión de datos. Cuando no estoy frente al ordenador, disfruto leyendo, pasando tiempo con mi esposa o corriendo por la playa."
+  },
+  "experience": {
+    "action": "Experiencia",
+    "items": [
+      {
+        "title": "Intehbel: Dejemos de soñar y hagámoslo realidad.",
+        "date": "2023 - presente",
+        "description": "Desarrollo de los componentes utilizados para construir la interfaz de usuario de la plataforma. Colaborar estrechamente con equipos multifuncionales, incluyendo desarrolladores y diseñadores.",
+        "tags": ["Laravel", "JavaScript", "HTML", "CSS", "GitLab", "Trello"],
+        "link": "https://intehbel.com/home"
+      },
+      {
+        "title": "DSpot: Una empresa digital.",
+        "date": "2022 - 2023",
+        "description": "Desarrollo de los componentes utilizados para construir la interfaz de usuario de la plataforma. Colaborar estrechamente con equipos multifuncionales, incluyendo desarrolladores y diseñadores.",
+        "tags": [
+          "React",
+          "TypeScript",
+          "HTML",
+          "CSS",
+          "Storybook",
+          "GitLab",
+          "Trello"
+        ],
+        "link": "https://www.dspot.com.pl"
+      },
+      {
+        "title": "Remake: Versiones de vídeo y localización de contenidos.",
+        "date": "2021 - 2022",
+        "description": "Desarrollo API con Node.js para integrar interfaces de usuario con diferentes servicios. Gestionar los servicios responsables de la creación y actualización de proyectos de Adobe PS y Adobe AE, así como de la renderización de proyectos de Adobe AE. Colaborar estrechamente con equipos multifuncionales, incluyendo desarrolladores y diseñadores.",
+        "tags": [
+          "Node.js",
+          "Express.js",
+          "Adobe Ps",
+          "Adobe Ae",
+          "GitLab",
+          "Trello"
+        ],
+        "link": "https://remake.video"
+      },
+      {
+        "title": "Findr: La plataforma de encuentro empresarial para tomadores de decisiones.",
+        "date": "2021 - 2022",
+        "description": "Desarrollo API con Nest.js. Desarrollo y mantener los componentes críticos utilizados para construir la interfaz de usuario de la plataforma. Colaborar estrechamente con equipos multidisciplinares, incluyendo desarrolladores, diseñadores y gerentes de producto, para implementar y promover las mejores prácticas en accesibilidad web.",
+        "tags": [
+          "Nest.js",
+          "TypeScript",
+          "AWS DynamoDB",
+          "AWS Lambda",
+          "Strapi",
+          "Stripe",
+          "Sendgrid",
+          "Docker",
+          "React",
+          "HTML",
+          "CSS",
+          "GitLab",
+          "Trello"
+        ],
+        "link": "https://findr.global"
+      }
+    ]
+  }
+}

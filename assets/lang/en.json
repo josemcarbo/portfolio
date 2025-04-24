@@ -1,0 +1,73 @@
+{
+  "description": "I'm a full-stack developer with experience in building web applications using modern technologies.",
+  "resume": {
+    "action": "Resume",
+    "description": "View Full Resume"
+  },
+  "about": {
+    "action": "About",
+    "description": "Back in 2019, I decided to try my hand at creating web applications and dove into the world of coding and web development. Nowadays, I’ve had the privilege of building software for different clients. Currently, my main goal is to create accessible user interfaces while making the most of modern technologies. What I enjoy the most is creating software that sits right at the intersection of design and engineering—things that look good but are also well-crafted. In my free time, I also like to explore the server-side universe, bringing together attractive interfaces with best practices in data management. When I'm not in front of the computer, I enjoy reading, spending time with my wife, or running along the beach."
+  },
+  "experience": {
+    "action": "Experience",
+    "items": [
+      {
+        "title": "Intehbel: Stop Dreaming and let us make it happen.",
+        "date": "2023 - present",
+        "description": "Develop components used to build the platform's user interface. Work closely with cross-functional teams, including developers and designers.",
+        "tags": ["Laravel", "JavaScript", "HTML", "CSS", "GitLab", "Trello"],
+        "link": "https://intehbel.com/home"
+      },
+      {
+        "title": "DSpot: We are Developers Designers DSpot a digital company.",
+        "date": "2022 - 2023",
+        "description": "Develop components used to build the platform's user interface. Work closely with cross-functional teams, including developers and designers.",
+        "tags": [
+          "React",
+          "TypeScript",
+          "HTML",
+          "CSS",
+          "Storybook",
+          "GitLab",
+          "Trello"
+        ],
+        "link": "https://www.dspot.com.pl"
+      },
+      {
+        "title": "Remake: Video Versioning and Content Localization.",
+        "date": "2021 - 2022",
+        "description": "Develop APIs with Node.js to integrate user interfaces with different services. Manage services responsible for creating/updating Adobe PS and Adobe AE projects, as well as rendering Adobe AE projects. Work closely with cross-functional teams, including developers and designers.",
+        "tags": [
+          "Node.js",
+          "Express.js",
+          "Adobe Ps",
+          "Adobe Ae",
+          "GitLab",
+          "Trello"
+        ],
+        "link": "https://remake.video"
+      },
+      {
+        "title": "Findr: The business matching platform for decision-makers.",
+        "date": "2021 - 2022",
+        "description": "Develop and maintain critical components used to build the platform's user interface. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and promote best practices in web accessibility.",
+        "tags": [
+          "Nest.js",
+          "TypeScript",
+          "AWS DynamoDB",
+          "AWS Lambda",
+          "Strapi",
+          "Stripe",
+          "Sendgrid",
+          "Docker",
+          "React",
+          "HTML",
+          "CSS",
+          "GitLab",
+          "Trello"
+        ],
+        "link": "https://findr.global"
+      }
+    ]
+  }
+}

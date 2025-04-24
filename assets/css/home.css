@@ -188,6 +188,7 @@
             article {
               display: flex;
               flex-direction: column;
+              gap: 5px;
 
               h3 {
                 font-weight: 500;
@@ -299,6 +300,34 @@
 
 .sticky {
   display: none;
+}
+
+.languages {
+  position: absolute;
+  top: 1rem;
+  right: 3rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  z-index: 3;
+
+  span {
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+    transition: transform 0.2s ease, color 0.2s ease;
+
+    &:hover {
+      color: var(--active);
+      font-weight: 500;
+    }
+
+    &.active {
+      color: var(--active);
+      font-weight: 500;
+    }
+  }
 }
 
 @keyframes grow {
@@ -415,5 +444,10 @@
   .sticky {
     display: block;
     top: -1.5rem;
+  }
+
+  .languages {
+    top: 0.7rem;
+    right: 1rem;
   }
 }
