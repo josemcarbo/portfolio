@@ -69,5 +69,29 @@
         "link": "https://findr.global"
       }
     ]
+  },
+  "cv": {
+    "description": "Ingeniero de Software centrado en la creación de experiencias digitales atractivas y accesibles.",
+    "experience": {
+      "description": "Experiencia Relevante",
+      "senior": "Ingeniero experimentado <i>2022 - Presente</i>",
+      "engineer": "Ingeniero <i>2020 - 2022</i>",
+      "general": [
+        "Me especializo en la construcción, el diseño visual y el despliegue de sitios web de alto rendimiento, sistemas de diseño escalables y experiencias digitales compatibles con múltiples plataformas, utilizando herramientas modernas como JavaScript, TypeScript, React, CSS y tecnologías relacionadas.",
+        "Colaboro con product managers, diseñadores e ingenieros para convertir ideas creativas en soluciones digitales concretas, trabajando en iteraciones ágiles de dos semanas.",
+        "Lidero iniciativas en el equipo de ingeniería colaborando estrechamente, creando herramientas que optimizan la experiencia de desarrollo y guiando a otros mediante mentoría."
+      ],
+      "details": [
+        "<span>Findr <i>2019 - 2021</i></span><ul><li>Desarrollé, mantuve y desplegué código en producción usando principalmente HTML, CSS, Sass y JavaScript.</li><li>Realicé pruebas de aseguramiento de calidad para garantizar compatibilidad entre navegadores y respuesta en dispositivos móviles.</li><li>Realicé pruebas end-to-end en los sitios para asegurar el funcionamiento adecuado de las vistas.</li></ul>",
+        "<span>Remake <i>2021 - 2022</i></span><ul><li>Desarrollé, mantuve y desplegué código en producción usano principalmente JavaScript, Express, Adobe Ps, Adobe Ae.</li><li>Realicé pruebas unitarias en el backend para asegurar el correcto funcionamiento de los diferentes servicios.</li><li>Contribuí extensamente a la creación del SDK de la aplicación.</li></ul>",
+        "<span>DSpot <i>2022 - 2023</i></span><ul><li>Desarrollé, mantuve y desplegué código en producción usando principalmente React, TypeScript, HTML y CSS.</li><li>Realicé pruebas de aseguramiento de calidad para garantizar compatibilidad entre navegadores y respuesta en dispositivos móviles.</li><li>Implementé historias con Storybook para garantizar el diseño de cada componente.</li></ul>",
+        "<span>Intehbel <i>2023 - 2024</i></span><ul><li>Desarrollé, mantuve y desplegué código en producción usando principalmente Laravel, PHP, HTML, CSS y JavaScript.</li></ul>",
+        "<span>Dabl <i>2024 - Presente</i></span><ul><li>Desarrollé, mantuve y desplegué código en producción usando TypeScript.</li><li>Desarrollé un driver para la comunicación entre el navegador y equipos médicos.</li></ul>"
+      ]
+    },
+    "skills": "<h1>Habilidades</h1><h3>Lenguajes</h3><p>JavaScript (ES2015+), TypeScript, HTML, CSS, Sass, PHP, Dart</p><h3>Librerías y Frameworks</h3><p>React, Next.js, Node.js, Nest.js, Express.js, Flutter, Laravel,Tailwind CSS</p><h3>Herramientas y Plataformas</h3><p>Git, GitLab, GitHub, Storybook, Docker, Webpack, Strapi, Stripe,Zoom</p><h3>Bases de Datos</h3><p>MongoDB, MySQL, DynamoDB, SQL, PostgreSQL</p>",
+    "education": "<h1>Educación</h1><h3>Universidad de Ciencias Informáticas</h3><p>Ingeniero en Ciencias de la Computación e Ingeniero de Software</p>",
+    "languages": "<h1>Idiomas</h1><h3>Español</h3><p>Lengua materna</p><h3>Inglés</h3><p>B1</p>",
+    "interest": "<h1>Intereses</h1><p>Tecnologías web, Baloncesto, Béisbol, ciencia ficción y fantasía,series: Breaking Bad y Game of Thrones.</p>"
   }
 }

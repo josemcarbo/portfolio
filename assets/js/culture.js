@@ -18,27 +18,32 @@ const processCulture = (culture) => {
     li.querySelector("article p").innerHTML =
       culture.experience.items[i].description;
   });
+
+  document.querySelectorAll(".languages span").forEach((span) => {
+    span.classList.remove("active");
+  });
+  document.querySelector(`span#${currentCulture}`).classList.add("active");
 };
 
 const loadCulture = (lang) => {
-  fetch(`assets/lang/${lang}.json`)
-    .then((res) => res.json())
-    .then((data) => {
-      processCulture(data);
-    });
+  const appData = getAppData();
+  if (!appData[lang]) {
+    fetch(`assets/lang/${lang}.json`)
+      .then((res) => res.json())
+      .then((data) => {
+        setAppData(JSON.stringify({ ...appData, [lang]: data, currentCulture }));
+        processCulture(data);
+      });
+  } else {
+    processCulture(appData[lang]);
+  }
+
+  setAppData(JSON.stringify({ ...appData, currentCulture }));
 };
 
 const changeLanguage = (language) => {
-  if (CULTURES.includes(language)) {
-    currentCulture = language;
-    loadCulture(currentCulture);
-    document.querySelectorAll(".languages span").forEach((span) => {
-      span.classList.remove("active");
-    });
-    document.querySelector(`span#${language}`).classList.add("active");
-  } else {
-    console.error("Language not supported");
-  }
+  currentCulture = language;
+  loadCulture(currentCulture);
 };
-
+removeAppData();
 loadCulture(currentCulture);

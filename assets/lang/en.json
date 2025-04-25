@@ -69,5 +69,29 @@
         "link": "https://findr.global"
       }
     ]
+  },
+  "cv": {
+    "description": "Experienced software engineer with a focus on building engaging & accessible digital experiences.",
+    "experience": {
+      "description": "Relevant Experience",
+      "senior": "Senior Engineer <i>2022 - Present</i>",
+      "engineer": "Engineer <i>Jan 2020 - Dec 2022</i>",
+      "general": [
+        "Build, style, and ship high·quality websites, design systems, and cross platform digital experiences for a diverse array of clients using technologies such as JavaScript, TypeScript, React, CSS, and more.",
+        "Work alongside product & project managers, designers, and other engineers to transform creative concepts into refined digital experiences at an agile (2 week) cadence.",
+        "Provide leadership within engineering department through close collaboration, building tools to improve developer experience, and mentorship."
+      ],
+      "details": [
+        "<span>Findr platform <i>2019 - 2021</i></span><ul><li>Developed, maintained, and shipped production code for client website primarily using HTML, CSS, Sass, JavaScript.</li><li>Performed quality assurance tests on site to ensure cross browser compatibility and mobile responsiveness.</li><li>Performed e2e testing on site to ensure proper functioning of views.</li></ul>",
+        "<span>Remake platform <i>2021 - 2022</i></span><ul><li>Developed, maintained, and shipped production code for client website primarily using JavaScript, Express, Adobe Ps, Adobe Ae.</li><li>Performed unit tests on Backend to ensure proper functioning of the different services.</li><li>Contributed extensively to the creation of the application SDK.</li></ul>",
+        "<span>DSpot website <i>2022 - 2023</i></span><ul><li>Developed, maintained, and shipped production code for client website primarily using React, TypeScript, HTML, CSS.</li><li>Performed quality assurance tests on site to ensure cross browser compatibility and mobile responsiveness.</li><li>Implemented stories with Storybook to guarantee the design of each component.</li></ul>",
+        "<span>Intehbel website <i>2023 - 2024</i></span><ul><li>Developed, maintained, and shipped production code for client website primarily using Laravel, PHP, HTML, CSS, Javascript.</li></ul>",
+        "<span>Dabl <i>2024 - Present</i></span><ul><li>Developed, maintained and shipped production code for client website that primarily use TypeScript.</li><li>Developed driver for communication between the navigator and medical equipment.</li></ul>"
+      ]
+    },
+    "skills": "<h1>Skills</h1><h3>Programming Languages</h3><p>JavaScript (ES2015+), TypeScript, HTML, CSS, Sass, PHP, Dart</p><h3>Libraries & Frameworks</h3><p>React, Next.js, Node.js, Nest.js, Express.js, Flutter, Laravel, Tailwind CSS</p><h3>Tools & Platforms</h3><p>Git, GitLab, GitHub, Storybook, Docker, Webpack, Strapi, Stripe, Zoom</p><h3>Database</h3><p>MongoDB, MySQL, DynamoDB, SQL, PostgreSQL</p>",
+    "education": "<h1>Education</h1><h3>University of Informatics Sciences</h3><p>Computer Science Engineer and Software Engineer</p>",
+    "languages": "<h1>Languages</h1><h3>Spanish</h3><p>Mother tongue</p><h3>English</h3><p>B1</p>",
+    "interest": "<h1>Interests</h1><p>Web technologies, Basketball, Baseball, science fiction and fantasy, series: Breaking Bad and Game of Throne.</p>"
   }
 }
